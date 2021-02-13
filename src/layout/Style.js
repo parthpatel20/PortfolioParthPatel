@@ -75,8 +75,7 @@ export const useStyles = makeStyles((theme) => ({
     marginLeft: "30%",
   },
   avatarMyLarge: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+
     boxShadow: "0px 0px 30px 6px gray",
     border: "3px solid white"
   },
