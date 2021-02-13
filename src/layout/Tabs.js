@@ -21,7 +21,8 @@ function LayoutTabs() {
 
     return (
         <div >
-            <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" variant="scrollable"
+            <Tabs value={value}
+                centered variant="scrollable" onChange={handleChange} aria-label="simple tabs example"
                 scrollButtons="off">
                 <Tab label="Home" {...a11yProps(0)} />
                 <Tab label="Experience" {...a11yProps(1)} />

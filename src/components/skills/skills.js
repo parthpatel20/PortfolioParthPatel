@@ -56,7 +56,7 @@ const Skills = () => {
                 {renderSkill('Cloud', CloudSkills)}
             </Grid>
             <Grid item xs={12} md={6} lg={6} sm={12} xl={6} >
-                {renderSkill('Frameworks', FrameworkSkills)}
+                {renderSkill('UI Framework', FrameworkSkills)}
             </Grid>
             <Grid item xs={12} md={6} lg={6} sm={12} xl={6} >
                 {renderSkill('Libraries', Libraries)}

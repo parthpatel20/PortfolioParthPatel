@@ -1,6 +1,6 @@
 import React from "react";
 import { profileDetail } from "../../api/data";
-import { CardMedia, Container, Grid } from "@material-ui/core";
+import { CardMedia, Container, Grid, Avatar } from "@material-ui/core";
 import { useStyles } from "../../layout/Style";
 import { EmailRounded, Call, GitHub, LinkedIn } from "@material-ui/icons";
 import { useMediaQuery } from "@material-ui/core";
@@ -70,19 +70,29 @@ const PersonalDetail = () => {
         image={contactInfo.image}
       >
         <Container>
-          <label className={classes.title}> {contactInfo.name}</label>
-          <br></br>
-          <h4 className={classes.titleSmall}>{contactInfo.position}</h4>
-          <p className={classes.titleSmall}>
-            <b>
-              I am an enthusiastic person who has passion for software
-              development. I am committed to develop myself to achieve better
-              results in mychallenges with my versatile skillset. Moreover, as a
-              team member I believe that I means we. To work in an organization
-              where my technical skills, experience, creativity and knowledge
-              can be utilized at the fullest.
+          <Grid container justify="center" alignContent="center" alignItems="center">
+            <Grid item alignContent="center" style={{ display: 'grid' }} justify="center" xl={12} md={12} xs={12} sm={12} lg={12}>
+              <Avatar className={classes.avatarMyLarge} src={contactInfo.profileImage} sizes='large' />
+            </Grid>
+            <Grid item alignContent="center" justify="center" xl={12} md={12} xs={12} sm={12} lg={12}>
+              <label className={classes.title}> {contactInfo.name}</label>
+            </Grid>
+            <Grid item alignContent="center" justify="center" xl={12} md={12} xs={12} sm={12} lg={12}>
+              <h4 className={classes.titleSmall}>{contactInfo.position}</h4>
+            </Grid>
+            <Grid item alignContent="center" justify="center" xl={12} md={12} xs={12} sm={12} lg={12}>
+              <p className={classes.titleSmall}>
+                <b>
+                  I am an enthusiastic person who has passion for software
+                  development. I am committed to develop myself to achieve better
+                  results in mychallenges with my versatile skillset. Moreover, as a
+                  team member I believe that I means we. To work in an organization
+                  where my technical skills, experience, creativity and knowledge
+                  can be utilized at the fullest.
             </b>
-          </p>
+              </p>
+            </Grid>
+          </Grid>
         </Container>
         <Container>
           <LinkedAccounts></LinkedAccounts>

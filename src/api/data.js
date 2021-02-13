@@ -2,11 +2,12 @@ export const profileDetail = {
   personalDetail: {
     name: "PARTH PATEL",
     number: "+64275721887",
-    position: "Full Stack Web Developer",
+    position: "Full Stack Developer",
     emailId: "parth.netprogrammer@gmail.com",
+    profileImage: "https://media-exp1.licdn.com/dms/image/C5603AQEmmx31L16NdQ/profile-displayphoto-shrink_800_800/0/1600665136122?e=1618444800&v=beta&t=g4b3xBLDTj8q7t4Vzg-oT_cNbZcE55WRo94H6f4mh74",
     image:
-      "https://raw.githubusercontent.com/parthpatel20/talent-standard-tasks-master/master/Talent.Services.Profile/images/IMG_09512.jpg",
-    address: "19, AzaraWay, Hallswell, Christchurch-8025",
+      "https://www.rushdah-ir.com/wp-content/uploads/2018/03/sliders1-1.jpg",
+    address: "1/39C Whitney ST, New Windsor, Auckland-0600",
     linkedAccounts: {
       linkedIn: "https://www.linkedin.com/in/parthpatel20/",
       github: "https://github.com/parthpatel20",
@@ -44,7 +45,9 @@ export const profileDetail = {
       { name: "Js", percent: "80" },
     ],
     be: [
+      { name: "Node Js", percent: "50" },
       { name: "C#", percent: "80" },
+      { name: "Asp.net/Core", percent: "70" },
       { name: "WebApi", percent: "70" },
       { name: "Entity Framework", percent: "70" },
       { name: "Web Scraping", percent: "30" },
@@ -52,13 +55,13 @@ export const profileDetail = {
     ],
     db: [
       { name: "Microsoft SQL Server", percent: "80" },
+      { name: "MySQL", percent: "60" },
       { name: "MongoDb", percent: "40" },
       { name: "Azure SQL Db", percent: "30" },
       { name: "Firebase", percent: "30" },
-      { name: "SQFlite", percent: "30" },
     ],
     cloud: [
-      { name: "Azure", percent: "50" },
+      { name: "Azure", percent: "70" },
       { name: "Google PlayStore Console", percent: "40" },
     ],
     learning: [
@@ -68,29 +71,50 @@ export const profileDetail = {
       //  { name: "React-Native", percent: "20" },
     ],
     framework: [
-      { name: "Asp.net", percent: "70" },
-      { name: "Asp.net Core", percent: "65" },
       { name: "Semantic-UI", percent: "75" },
       { name: "Material-UI", percent: "75" },
       { name: "Ant-Design UI", percent: "85" },
       { name: "BootStrap", percent: "85" },
+      { name: "Rebass", percent: "45" },
     ],
+
     javascriptLibrary: [
       { name: "ReactJS", percent: "90" },
       { name: "Webpack", percent: "45" },
       { name: "Redux", percent: "70" },
       { name: "Dva", percent: "60" },
+      { name: "Vue", percent: "60" },
+
     ],
     tools: [
       { name: "Visual Studio", percent: "75" },
       { name: "Visual Studio Code", percent: "65" },
       { name: "GitHub", percent: "60" },
+      { name: "Bitbucket", percent: "60" },
       //  { name: "OpenCV", percent: "30" },
       { name: "React-Redux Dev Tools", percent: "20" },
+      { name: "Vue Dev Tools", percent: "30" },
       { name: "Android Emulator/Devices", percent: "70" },
     ],
   },
   experience: [
+    {
+      company: "Ako Ai",
+      location: "Auckland, New Zealand",
+      url: "https://www.ako.ai/",
+      position: "Full Stack Developer",
+      positionType: "Permanent",
+      start: "Jan 2021",
+      end: "Present",
+      companyLogo:
+        "https://media-exp1.licdn.com/dms/image/C560BAQGJSwa2_4MqwQ/company-logo_200_200/0/1613102243560?e=1621468800&v=beta&t=-_FzggAezh5l6cKp1YMk9BVunvDXPLMHGvafAeNCyBw",
+      responsibilities: [
+        "Developing new features and additions to our platform – including working with our conversation team for requirements, design, implementation, and deployment.",
+        "Enhancing existing features as we get feedback on them.",
+        "Maintaining existing features – bugfixes and optimizations.",
+        "Just helping out – working with our conversation team when they have gotten stuck or need a difficult issue diagnosed."
+      ]
+    },
     {
       company: "MVP Studio",
       location: "Christchurch, New Zealand",
@@ -98,7 +122,7 @@ export const profileDetail = {
       position: "Full Stack Developer",
       positionType: "Contract",
       start: "July 2020",
-      end: "Present",
+      end: "Dec 2020",
       companyLogo:
         "https://media.glassdoor.com/sqll/2897345/mvp-studio-new-zealand-squarelogo-1562027244241.png",
       responsibilities: [

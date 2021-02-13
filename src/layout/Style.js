@@ -52,13 +52,16 @@ export const useStyles = makeStyles((theme) => ({
     height: "auto",
   },
   coverimg: {
-    height: "350px",
+    // height: "350px",
     paddingTop: "20%",
+    backgroundColor: 'black'
   },
   coverimgLg: {
     height: "100%",
     paddingTop: "20%",
     paddingBottom: "10%",
+    backgroundColor: 'black',
+
   },
   mediaImage: {
     paddingTop: "30%",
@@ -70,6 +73,12 @@ export const useStyles = makeStyles((theme) => ({
     width: theme.spacing(7),
     height: theme.spacing(7),
     marginLeft: "30%",
+  },
+  avatarMyLarge: {
+    width: theme.spacing(15),
+    height: theme.spacing(15),
+    boxShadow: "0px 0px 30px 6px gray",
+    border: "3px solid white"
   },
 
   avatarLargeSquare: {
@@ -87,8 +96,9 @@ export const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: 60,
     fontWeigt: "Bolder",
-    color: "white",
+    color: "White",
     fontFamily: "monospace",
+
   },
   pageTitle: {
     fontSize: 25,
